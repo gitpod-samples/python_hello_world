@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python_hello_world"
+version = "0.1.0"
+description = ""
+authors = ["AXON <axonasif@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_hello_world"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+art = "^6.0"
+requests = "^2.31.0"
+periodictable = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
