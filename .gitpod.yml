@@ -3,3 +3,8 @@ tasks:
     command: |
       # Run our python module with poetry
       poetry run python3 -m https_server
+
+ports:
+  - name: Frontend
+    port: 8080
+    protocol: https
